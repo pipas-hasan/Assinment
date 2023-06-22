@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    
+<!-- Navbar codes -->
+    
+      <nav class="navbar sticky-top navbar-expand-lg navbar mb-4 shadow bg-light" id="navbar-container">
+        <div class="container align-items-center">
+          <a class="navbar-brand" href="#"><nav class="navbar">
+              <a class="navbar-brand fw-semibold" href="#">
+                Burger <span style="color: rgb(211, 155, 42);">Portal</span>
+              </a>
+          </nav></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse gap-2" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Highlights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sign in</a></li>
+                  <li><a class="dropdown-item" href="#">Sign up</a></li>
+                </ul>
+                <li><div class="form-check form-switch bg-body-secondary" >
+                  <input class="form-check-input" type="checkbox" role="switch" id="color-mode-toggle" checked>
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Color mode</label>
+              </div></li>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success bg-body-tertiary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+  <!-- Hero section -->
+      
+    <div class="container mb-5">
+
+      <section class="hero-container d-flex justify-content-between align-items-center gap-4">
+        
+        <div>
+
+          <h1>Welcome to Burger Portal</h1>
+
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi dolorum, minus tempore mollitia unde pariatur, corporis, consequuntur vero inventore incidunt dicta dignissimos sint perspiciatis obcaecati temporibus fugiat? Nisi, saepe sequi.</p>
+          
+          <button type="button" class="btn btn-lg" style="background: rgb(211, 155, 42)">Sign up Now</button>
+        
+        </div>
+        
+        <img src="/assets/amirali-mirhashemian-JqG9YJWy6eI-unsplash.jpg" class="img-fluid rounded float-start col-5" alt="food-picture">
+        
+        
+        
+        
+      </section>
+
+
+    </div>
+
+<!-- Information Table -->
+
+    <table class="table container container-fluid">
+      <thead>
+        <tr>
+          
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+<!-- carousel Code -->
+
+
+      <div class="container mb-4">
+
+        
+          
+          
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button style="background: rgb(211, 155, 42)" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button style="background: rgb(211, 155, 42)" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button style="background: rgb(211, 155, 42)" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+              <div class="carousel-inner">
+                <div class="carousel-item bg-img-1 active">
+                  <!-- <img src="/assets/pexels-mat-brown-1395967.jpg" class="img-fluid col-lg-12 col-ml-4 ratio ratio-16x9"   alt="retaurant-pictures"> -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item bg-img-2">
+                  <!-- <img src="/assets/pexels-marilena-baltzaki-15082377.jpg" class="img-fluid col-lg-12 col-ml-4  ratio   ratio-16x9" alt="retaurant-pictures"> -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item bg-img-3">
+                  <!-- <img src="/assets/pexels-desativado-2433980.jpg" class="img-fluid col-lg-12 col-ml-4  ratio ratio-16x9"   alt="retaurant-pictures"> -->
+                  <div class="carousel-caption d-none d-md-block">12
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"   data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"   data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+
+
+          </div>
+      
+      
+      </div>
+    
+      <div class="container container-fluid">
+
+
+<!-- This is the newsletter signup form  -->
+
+        <section id="Contact">
+
+          
+          <form class="mb-5">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your E-mail">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Name</label>
+              <input type="Name" class="form-control" id="exampleInputPassword1" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input border-dark" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Sign me up for newsletters</label>
+            </div>
+            <button type="submit" class="btn" style="background: rgb(211, 155, 42)">Submit</button>
+          </form>
+          
+        </section>
+        
+        
+      </div>
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    <script src="JS/theme.js"></script>
+
+
+
+    <script src="JS/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.bg-img-1{
+    background-image: url(/assets/pexels-mat-brown-1395967.jpg);
+}
+.bg-img-2{
+    background-image: url(/assets/pexels-marilena-baltzaki-15082377.jpg);
+}
+.bg-img-3{
+    background-image: url(/assets/pexels-desativado-2433980.jpg);
+}
+
+.carousel-item{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
